@@ -36,7 +36,8 @@ Everything runs **on your device**. Nothing is uploaded, streamed, or sent anywh
    - This is how the app starts its own background helper (the daemon) **without needing a PC**. You only do this **once, ever.**
    - *If the dialog is slow to appear, leave the app open a few seconds — it retries on its own.*
 5. **That's it.** After that one tap the app **automatically grants itself** the two permissions it needs — **Draw over other apps** and **Camera** — and starts its daemon. The Home screen should show **Daemon: running** and **Camera: granted** in green. (If a Camera or Draw-over-apps prompt ever appears, just allow it.)
-6. **Pick your camera position** (below), flick a turn signal, and you're set.
+6. **Turn on Auto-start for this app** — long-press the app icon or use your Screenmate's startup/autostart manager and enable it for Screenmate Signal Overlay. This makes the app come back on its own after every reboot (see [Known limits](#known-limits)).
+7. **Pick your camera position** (below), flick a turn signal, and you're set.
 
 ## Drive side & camera position
 
@@ -64,7 +65,7 @@ When you're fully in **another app** (not the Tesla Interface), *any* position w
 ## Known limits
 
 - **Left-hand drive (LHD) is the only drive side tested on a real car.** **RHD is auto-mirrored** from the calibrated LHD presets and should be close, but **it has not been verified on an actual right-hand-drive Tesla** — RHD users should expect to use **Fine-tune** to dial it in. Fine-tune (drag/resize your own box) makes any drive side, position, or custom setup exact, and saves per position.
-- **After a reboot — turn on the app's Auto-start.** Android 14 blocks a camera app from starting its video from a cold boot in the background. The fix: enable **Auto-start** for this app (long-press the app icon, or your Screenmate's startup/autostart manager). With it on, the app relaunches itself on boot, re-arms the camera, and everything comes back with **no manual step**. (Without Auto-start, just open the app once after each reboot to re-arm it.)
+- **Enable Auto-start (see step 6 of Install).** Android 14 blocks a camera app from starting its video from a cold boot in the background. The fix: enable **Auto-start** for this app (long-press the app icon, or your Screenmate's startup/autostart manager). With it on, the app relaunches itself on boot, re-arms the camera, and everything comes back with **no manual step**. (Without Auto-start, just open the app once after each reboot to re-arm it.)
 - Beta software — expect rough edges.
 
 ---
