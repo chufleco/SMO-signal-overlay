@@ -63,7 +63,7 @@ When you're fully in **another app** (not the Tesla Interface), *any* position w
 
 ## Known limits
 
-- **RHD is auto-mirrored** from the calibrated left-hand-drive presets and close, but not yet car-verified. Use the in-app **Fine-tune** (drag/resize your own box) to make any drive side, position, or custom setup exact — it saves per position.
+- **Left-hand drive (LHD) is the only drive side tested on a real car.** **RHD is auto-mirrored** from the calibrated LHD presets and should be close, but **it has not been verified on an actual right-hand-drive Tesla** — RHD users should expect to use **Fine-tune** to dial it in. Fine-tune (drag/resize your own box) makes any drive side, position, or custom setup exact, and saves per position.
 - **After a reboot, open the app once.** Android 14 won't let a camera app start its video from a cold boot in the background, so after the Screenmate restarts, open the app one time to re-arm the camera (it stays armed until the next reboot). Everything else comes back on its own.
 - Beta software — expect rough edges.
 
