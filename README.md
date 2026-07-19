@@ -53,6 +53,8 @@ Everything runs **on your device**. Nothing is uploaded, streamed, or sent anywh
 
 **Not sure which?** Turn on a turn signal and see where your Tesla shows the camera — then pick the matching Position.
 
+**Expanded view.** Position 3 in particular tends to shift when your Tesla switches to its full-screen ("expanded") blind-spot view. The app detects that switch automatically, and you can now **Fine-tune the Normal and Expanded views separately** in Settings if the box needs adjusting for each. (On Intel-based cars the expanded view only appears while driving, so calibrate it from a safe stop.)
+
 ## Using it with a split screen
 
 The overlay stands down whenever the **Tesla Interface** itself is on screen (you already see the camera there). In a split with the Tesla Interface, pick the camera **Position that lands in the Tesla Interface's half**:
@@ -65,9 +67,9 @@ When you're fully in **another app** (not the Tesla Interface), *any* position w
 ## Known limits
 
 - **Left-hand drive (LHD) is the only drive side tested on a real car.** **RHD is auto-mirrored** from the calibrated LHD presets and should be close, but **it has not been verified on an actual right-hand-drive Tesla** — RHD users should expect to use **Fine-tune** to dial it in. Fine-tune (drag/resize your own box) makes any drive side, position, or custom setup exact, and saves per position.
-- **Enable Auto-start (see step 6 of Install).** Android 14 blocks a camera app from starting its video from a cold boot in the background. The fix: enable **Auto-start** for this app (long-press the app icon, or your Screenmate's startup/autostart manager). With it on, the app relaunches itself on boot, re-arms the camera, and everything comes back with **no manual step**. (Without Auto-start, just open the app once after each reboot to re-arm it.)
-- **Auto-start is a single global slot on this launcher, not a per-app list.** Enabling Auto-start on any other app will silently un-set it for this one (and vice versa). If the camera stops coming back after a reboot, re-enable Auto-start on this app last — whichever app you enabled it on most recently is the one that wins.
+- **Enable Auto-start (Install step 6).** Screenmate only lets one app auto-start at a time, so turning it on for another app turns it off here. If the camera doesn't come back after a reboot, just open the app once (check the Home screen shows **Daemon: running**) and it'll work.
 - Beta software — expect rough edges.
+- **This is a temporary, community-made fix.** Screenmate plans to build blind-spot / turn-signal camera support in natively when their Video API ships — at which point this app won't be needed.
 
 ---
 
