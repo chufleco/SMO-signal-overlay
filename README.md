@@ -2,7 +2,7 @@
 
 Float your Tesla's **blind-spot / turn-signal camera** as a small window on top of **any app** on your Teslogic **Screenmate**, the moment you flick a turn signal — then it disappears when you cancel it.
 
-No more missing your blind-spot view just because you're in Waze, Google Maps, music, or another app instead of the Tesla Interface.
+No more missing your blind-spot view just because you're in Waze, Google Maps, YouTube, or another app instead of the Tesla Interface.
 
 ![Screenmate Signal Overlay — the blind-spot camera floating over another app when the signal is on](docs/screenshot-hero.png)
 
