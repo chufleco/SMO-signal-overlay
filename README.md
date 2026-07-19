@@ -66,6 +66,7 @@ When you're fully in **another app** (not the Tesla Interface), *any* position w
 
 - **Left-hand drive (LHD) is the only drive side tested on a real car.** **RHD is auto-mirrored** from the calibrated LHD presets and should be close, but **it has not been verified on an actual right-hand-drive Tesla** — RHD users should expect to use **Fine-tune** to dial it in. Fine-tune (drag/resize your own box) makes any drive side, position, or custom setup exact, and saves per position.
 - **Enable Auto-start (see step 6 of Install).** Android 14 blocks a camera app from starting its video from a cold boot in the background. The fix: enable **Auto-start** for this app (long-press the app icon, or your Screenmate's startup/autostart manager). With it on, the app relaunches itself on boot, re-arms the camera, and everything comes back with **no manual step**. (Without Auto-start, just open the app once after each reboot to re-arm it.)
+- **Auto-start is a single global slot on this launcher, not a per-app list.** Enabling Auto-start on any other app will silently un-set it for this one (and vice versa). If the camera stops coming back after a reboot, re-enable Auto-start on this app last — whichever app you enabled it on most recently is the one that wins.
 - Beta software — expect rough edges.
 
 ---
