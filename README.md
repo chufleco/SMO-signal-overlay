@@ -66,7 +66,7 @@ When you're fully in **another app** (not the Tesla Interface), *any* position w
 
 ## Known limits
 
-- **Left-hand drive (LHD) is the only drive side tested on a real car.** **RHD is auto-mirrored** from the calibrated LHD presets and should be close, but **it has not been verified on an actual right-hand-drive Tesla** — RHD users should expect to use **Fine-tune** to dial it in. Fine-tune (drag/resize your own box) makes any drive side, position, or custom setup exact, and saves per position.
+- **Left-hand drive (LHD) is the drive side tested firsthand.** **RHD is auto-mirrored** from the calibrated LHD presets and has been reported working on real right-hand-drive Teslas by community members, so RHD users should still expect to use **Fine-tune** to dial it in. Fine-tune (drag/resize your own box) makes any drive side, position, or custom setup exact, and saves per position.
 - **Enable Auto-start (Install step 6).** Screenmate only lets one app auto-start at a time, so turning it on for another app turns it off here. If the camera doesn't come back after a reboot, just open the app once (check the Home screen shows **Daemon: running**) and it'll work.
 - Beta software — expect rough edges.
 - **This is a temporary, community-made fix.** Screenmate plans to build blind-spot / turn-signal camera support in natively when their Video API ships — at which point this app won't be needed.
