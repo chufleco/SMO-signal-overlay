@@ -23,12 +23,15 @@ Everything runs **on your device**. Nothing is uploaded, streamed, or sent anywh
 
 ## Requirements
 
-- Teslogic **Screenmate** (Android 14) with its built-in local root adb (default on Screenmate).
+- Teslogic **Screenmate** (Android 14) with its built-in local root adb. On Screenmate OS **1.1.0b or newer** this is off by default; turn on **Allow rooted debugging** (install step 1).
 - A Tesla with the blind-spot / turn-signal camera enabled on the vehicle screen.
 
 ## Install
 
 1. **Enable Developer options** — on the Screenmate: **Settings → About → tap "Build number" 7 times**, then in **Developer options** turn on **USB debugging**.
+   - **Screenmate OS 1.1.0b or newer:** in **Developer options** also turn on **Allow rooted debugging** (right under USB debugging). Screenmate shows three warnings: tap **Next**, **Next** again once its countdown ends, then **Enable** once its countdown ends. No PC or `adb root` needed; the setting itself switches the Screenmate's adb to root. Without it the app can't start its daemon and the overlay never shows.
+
+     ![The three "Enable rooted debugging?" prompts](docs/rooted-debugging-prompts.png)
 2. **Install the APK** — download the latest from [Releases](../../releases) and install it.
 3. **Open the app.**
 4. **Tap the "Allow USB debugging?" dialog** — the first time you open it, this popup appears. **Check the "Always allow from this computer" box, then tap Allow.**
